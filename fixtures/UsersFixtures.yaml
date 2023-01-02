@@ -1,0 +1,7 @@
+App\Entity\Users:
+    Users_{1..200}:
+        email: <email()>
+        plainPassword: "password"
+        firstname: <firstName()>
+        lastname: <lastName()>
+        createdAt: <(new DateTimeImmutable())>
